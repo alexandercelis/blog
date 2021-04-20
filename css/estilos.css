@@ -24,27 +24,45 @@ h4,
 h5,
 h6 {
     text-align: center;
-    margin-bottom: 0;
-}
-
-.texto-naranja {
-    font-weight: 300;
-    color: orange;
+    margin: 0;
+    color: #fff;
+    position: relative;
+    right: 1.5%;
 }
 
 .texto-blanco {
     font-weight: 700;
     color: #fff;
+    align-items: center;
 }
 
 .texto-negro {
     color: #000;
 }
 
+.pag4 {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: center;
+    font-size: 25px;
+    font-variant: normal;
+    bottom: 320px;
+    right: 25px;
+}
+
 
 /*Heater*/
 
-.header {
+.header1,
+.header2,
+.header3,
+.header4,
+.header5 {
     background: #000;
 }
 
@@ -54,42 +72,36 @@ h6 {
 .flecha {
     color: #fff;
     position: absolute;
-    z-index: 99;
-    bottom: 3%;
+    z-index: 50;
+    bottom: 4%;
     left: 47%;
     font-size: 30px;
-    animation: bajar-subir 1s ease infinite;
+    animation: bajar-subir 1.3s ease infinite;
 }
 
-.flecha2 {
-    color: #000;
-    position: absolute;
-    z-index: 99;
-    bottom: 3%;
-    left: 47%;
-    font-size: 30px;
-    animation: bajar-subir 1s ease infinite;
-}
+main .section .section4 {}
 
-.flecha3 {
-    color: #000;
-    position: absolute;
-    z-index: 99;
-    bottom: 3%;
-    left: 47%;
-    font-size: 30px;
-    animation: bajar-subir 1s ease infinite;
-}
+main .section .section3 {}
 
-.footer {
-    font-family: 'Lato', sans-serif;
-    font-size: 28px;
-    font-weight: 300px;
+main .section .section2 {}
+
+main .section .section1 {}
+
+.bg-video {
     position: relative;
-    top: -300px;
+    top: 0;
     right: 0;
-    bottom: 0;
-    left: -25px;
+    bottom: -500px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background: #000;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+    align-items: center;
+    padding: 0;
 }
 
 
