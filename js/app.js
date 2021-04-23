@@ -3,7 +3,7 @@ const seccionesPag = new fullpage("#fullpage", {
     fitToSection: true, // Acomoda el scroll automaticamente para que la seccion se muestre en pantalla.
     fitToSectionDelay: 0, // Delay antes de acomodar la seccion automaticamente.
     easing: 'easeInOutCubic', // Funcion de tiempo de la animacion.
-    scrollingSpeed: 1000, // Velocidad del scroll. Valores: en milisegundos.
+    scrollingSpeed: 1300, // Velocidad del scroll. Valores: en milisegundos.
     css3: true, // Si usara CSS3 o javascript.
     easingcss3: 'ease-out', // Curva de velocidad del efecto.
     loopBottom: TextTrackCueList, // Regresa a la primera seccion siempre y cuando se ya haya llegado a la ultima sección y el ususario siga scrolleando.
@@ -18,19 +18,10 @@ const seccionesPag = new fullpage("#fullpage", {
     // ──────────────────────────────────────────────────
     //   :::::: Secciones
     // ──────────────────────────────────────────────────
-
     verticalCentered: true, // Si alineara de forma vertical los contenidos de cada seccion.
     // ──────────────────────────────────────────────────
     //   :::::: Slides
     // ──────────────────────────────────────────────────
-    controlArrows: true, // Flechas del slide
+    controlArrows: false, // Flechas del slide
     slidesNavigation: false, // Indicadores del slide
-    // ──────────────────────────────────────────────────
-    //   :::::: Animaciones (Callbacks de FullPage.js)
-    // ──────────────────────────────────────────────────
-    afterLoad: function(origin, destination) {
-        if (destination.anchor == 'contacto') {
-            document.querySelector('.footer').querySelector('h2').style.opacity = 1;
-        }
-    }
 });
