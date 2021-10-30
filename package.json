@@ -1,0 +1,27 @@
+{
+  "name": "blog-personal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "postcss src/tailwind.css -o public/css/style.css",
+  "watch": "postcss src/tailwind.css -o public/css/style.css --watch"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandercelis/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandercelis/blog/issues"
+  },
+  "homepage": "https://github.com/alexandercelis/blog#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
